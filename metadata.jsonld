@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158205aba3713dc850b8e4063c874fae2f301f35ecb611b14dc1070a84f432fa01cb2"
+        },
+        "signature": {
+          "@value": "84582aa201276761646472657373581d60b12537c584d5a9b852cbb64f8f79c48a0f7c46242bcf8cb3ce83425da166686173686564f458445665726966792044526570206472657031353267666e3077716464333974766d6c373438336c6c6a3535726b34796b6e39687661766b61396776683364766e6865657a6358400ba4f94c343fa87d258c9f0c689eb3ad65df87c4011a9b74c8b51bc061dd22169bf2ed8f23cb8f159b4a60501d014c8ca7f04cf86b4210677ce5626a65570f01"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Empty"
+    },
+    "email": {
+      "@value": "bestfriendkevin@gmail.com"
+    },
+    "givenName": {
+      "@value": "Kevin Mohr"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmWE1a32Q13WNTQ2u29hah5My6dv5QVSuXbVN21y3wLiFu",
+      "sha256": "e260fba56f16dcd403127b1499140bf1d5730a79a3e911c01a553e253ce20c0e"
+    },
+    "motivations": {
+      "@value": "Empty"
+    },
+    "objectives": {
+      "@value": "Empty"
+    },
+    "paymentAddress": {
+      "@value": "addr_test1qzcj2d79sn26nwzjewmylrmecj9q7lzxys4ulr9ne6p5yhwufazmrq9hgkkz2rt5fkd609n00czenyqq4sqefpne9fusf30n6n"
+    },
+    "qualifications": {
+      "@value": "Empty"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Twitter"
+        },
+        "uri": {
+          "@value": "https://x.com/My__X__Account"
+        }
+      }
+    ]
+  }
+}
