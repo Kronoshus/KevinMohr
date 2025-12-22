@@ -48,8 +48,9 @@
       }
     }
   },
+  "authors": [],
   "body": {
-    "comment": "This net change limit is too high. Especially given how easy it is to abuse the constitution."
+    "comment": "This wasn't approved through a proper election. No."
   },
   "hashAlgorithm": "blake2b-256"
 }
